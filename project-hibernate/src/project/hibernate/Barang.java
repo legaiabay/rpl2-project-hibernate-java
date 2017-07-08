@@ -19,7 +19,7 @@ public class Barang implements Serializable{
     private String namaBarang;
     
     @Column(name = "harga_barang",length = 15)
-    @Enumerated(EnumType.STRING)
+    //@Enumerated(EnumType.STRING)
     private String hargaBarang;
     
     @Column(name = "stok_barang", length = 3)
